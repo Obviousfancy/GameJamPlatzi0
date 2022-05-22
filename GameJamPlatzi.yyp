@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"na","path":"objects/na/na.yy",},"order":1,},
     {"id":{"name":"spr_boton_menu","path":"sprites/spr_boton_menu/spr_boton_menu.yy",},"order":0,},
     {"id":{"name":"obj_boton_menu","path":"objects/obj_boton_menu/obj_boton_menu.yy",},"order":0,},
     {"id":{"name":"Sala1","path":"rooms/Sala1/Sala1.yy",},"order":0,},
