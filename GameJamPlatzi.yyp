@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_boton_menu","path":"sprites/spr_boton_menu/spr_boton_menu.yy",},"order":0,},
+    {"id":{"name":"hola","path":"objects/hola/hola.yy",},"order":1,},
     {"id":{"name":"obj_boton_menu","path":"objects/obj_boton_menu/obj_boton_menu.yy",},"order":0,},
     {"id":{"name":"Sala1","path":"rooms/Sala1/Sala1.yy",},"order":0,},
   ],
@@ -9,7 +10,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
