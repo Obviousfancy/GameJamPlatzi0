@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Menus",
-    "path": "folders/Objetos/Menus.yy",
+    "name": "grp_menus",
+    "path": "folders/Objetos/grp_menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_boton_menu",
