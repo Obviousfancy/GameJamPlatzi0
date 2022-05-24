@@ -25,10 +25,17 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
+<<<<<<<< HEAD:rooms/Room1/Room1.yy
+    {"name":"inst_1E3DD502","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5137C423","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_18988A18","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7B85F659","path":"rooms/Room1/Room1.yy",},
+========
     {"name":"inst_1E3DD502","path":"rooms/Room_01_Splash_Screen3/Room_01_Splash_Screen3.yy",},
     {"name":"inst_5137C423","path":"rooms/Room_01_Splash_Screen3/Room_01_Splash_Screen3.yy",},
     {"name":"inst_18988A18","path":"rooms/Room_01_Splash_Screen3/Room_01_Splash_Screen3.yy",},
     {"name":"inst_7B85F659","path":"rooms/Room_01_Splash_Screen3/Room_01_Splash_Screen3.yy",},
+>>>>>>>> bdeedcc814ccea04d4afb89968e679521ac0d98b:rooms/Room_01_Splash_Screen3/Room_01_Splash_Screen3.yy
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -56,7 +63,11 @@
     "path": "folders/Salas.yy",
   },
   "resourceVersion": "1.0",
+<<<<<<<< HEAD:rooms/Room1/Room1.yy
+  "name": "Room1",
+========
   "name": "Room_01_Splash_Screen3",
+>>>>>>>> bdeedcc814ccea04d4afb89968e679521ac0d98b:rooms/Room_01_Splash_Screen3/Room_01_Splash_Screen3.yy
   "tags": [],
   "resourceType": "GMRoom",
 }
