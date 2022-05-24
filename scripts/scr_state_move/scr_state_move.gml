@@ -14,17 +14,31 @@ function scr_state_move(){
 	}else if(up){
 		 y = y-spd;
 		 //En GMS, funciona al reves el eje y, si queremos subir tenemos que poner -
-		 h_dir = -1;
-		 //image_xscale = -1;
-		 //Escala la imagen para darle ciertos efectos, util en explosiones o muertes	 
+		//Este codigo en up y down funciona para que si el usuario
+		//decide bajar y esta en la posicion derecha
+		//baje mirando hacia la posicion derecha
+			
+			if(up && left){
+				
+				//Hara una especie de espejo del sprite hacia la izquierda
+				h_dir = -1;
+			}else if(up && right){
+				//Hara una especie de espejo del sprite hacia la derecha
+				h_dir = 1;
+			}
+		 
 	}else if(down){
 		 y = y+spd;
 		 //En GMS, funciona al reves el eje y, si queremos subir tenemos que poner +
-		 h_dir = -1;
-		 //image_xscale = -1;
-		 //Escala la imagen para darle ciertos efectos, util en explosiones o muertes	 
+		 if(down && left){
+				h_dir = -1;
+			}else if(down && right){
+				h_dir = 1;
+			}
+		 
+		
 	}	
-	
+	 //Escala la imagen para darle ciertos efectos, util en explosiones o muertes	 
 	image_xscale = h_dir;
 	sprite_index = spr_main_char_walking;
 	
