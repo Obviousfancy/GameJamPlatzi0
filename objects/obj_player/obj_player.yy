@@ -19,7 +19,6 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-<<<<<<<< HEAD:objects/obj_player/obj_player.yy
   "physicsShapePoints": [
     {"x":7.0,"y":28.0,},
     {"x":35.0,"y":28.0,},
@@ -27,28 +26,31 @@
     {"x":7.0,"y":68.0,},
   ],
   "eventList": [
+<<<<<<<< HEAD:objects/obj_pause/obj_pause.yy
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+========
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+>>>>>>>> natalia:objects/obj_player/obj_player.yy
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objetos/Player.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "obj_player",
-========
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
+<<<<<<<< HEAD:objects/obj_pause/obj_pause.yy
     "name": "grp_sensors",
     "path": "folders/Objetos/grp_sensors.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pause",
->>>>>>>> bdeedcc814ccea04d4afb89968e679521ac0d98b:objects/obj_pause/obj_pause.yy
+========
+    "name": "Player",
+    "path": "folders/Objetos/Player.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_player",
+>>>>>>>> natalia:objects/obj_player/obj_player.yy
   "tags": [],
   "resourceType": "GMObject",
 }
