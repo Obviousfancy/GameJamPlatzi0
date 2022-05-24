@@ -32,13 +32,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room_03_Scene1","path":"rooms/Room_03_Scene1/Room_03_Scene1.yy",},},
-<<<<<<< HEAD
     {"roomId":{"name":"Room_02_Main_Title","path":"rooms/Room_02_Main_Title/Room_02_Main_Title.yy",},},
     {"roomId":{"name":"Room_01_Splash_Screen3","path":"rooms/Room_01_Splash_Screen3/Room_01_Splash_Screen3.yy",},},
-=======
-    {"roomId":{"name":"Room_01_Splash_Screen3","path":"rooms/Room_01_Splash_Screen3/Room_01_Splash_Screen3.yy",},},
-    {"roomId":{"name":"Room_02_Main_Title","path":"rooms/Room_02_Main_Title/Room_02_Main_Title.yy",},},
->>>>>>> parent of 8fb1484 (Squashed commit of the following:)
     {"roomId":{"name":"Room_Credits","path":"rooms/Room_Credits/Room_Credits.yy",},},
   ],
   "Folders": [
