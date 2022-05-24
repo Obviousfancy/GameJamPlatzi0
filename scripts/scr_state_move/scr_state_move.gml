@@ -1,6 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_state_move(){
+	
+	
+	
 	if(right){
 		 x = x+spd;
 		 h_dir = 1;
@@ -14,6 +17,7 @@ function scr_state_move(){
 	}else if(up){
 		 y = y-spd;
 		 //En GMS, funciona al reves el eje y, si queremos subir tenemos que poner -
+		
 		//Este codigo en up y down funciona para que si el usuario
 		//decide bajar y esta en la posicion derecha
 		//baje mirando hacia la posicion derecha
@@ -37,7 +41,7 @@ function scr_state_move(){
 			}
 		 
 		
-	}	
+	}		
 	 //Escala la imagen para darle ciertos efectos, util en explosiones o muertes	 
 	image_xscale = h_dir;
 	sprite_index = spr_main_char_walking;
@@ -45,7 +49,7 @@ function scr_state_move(){
 	if(!right && !left && !up && !down){
 			state = scr_state_idle;
 	}
-
+	
 	//Con sprite index le asignaremos una animacion a nuestro personaje
 
 }

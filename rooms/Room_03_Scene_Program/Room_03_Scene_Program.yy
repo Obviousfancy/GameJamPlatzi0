@@ -22,7 +22,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1B617A6C","path":"rooms/Room_03_Scene1/Room_03_Scene1.yy",},
+    {"name":"inst_1B617A6C","path":"rooms/Room_03_Scene_Program/Room_03_Scene_Program.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -50,7 +50,7 @@
     "path": "folders/Salas.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Room_03_Scene1",
+  "name": "Room_03_Scene_Program",
   "tags": [],
   "resourceType": "GMRoom",
 }
