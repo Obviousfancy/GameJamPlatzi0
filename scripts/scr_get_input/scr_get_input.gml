@@ -32,12 +32,13 @@ function scr_get_input(){
 	down = keyboard_check(vk_down) || keyboard_check(ord("S")) ;
 	run = keyboard_check(vk_shift);
 	
+	/*
 	hor = (right - left);
 	ver = (down - up);
 	
 	hsp = hor * spd;
 	vsp = ver * spd;
-	
+	*/
 	//Acciones del personaje
 	attack = keyboard_check(ord("J")) ;
 	

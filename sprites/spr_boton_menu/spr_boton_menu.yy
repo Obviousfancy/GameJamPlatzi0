@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "grp_menus",
+    "path": "folders/Sprites/grp_menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_boton_menu",

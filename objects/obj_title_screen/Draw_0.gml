@@ -29,7 +29,7 @@ if(file_existance){
 	draw_text_ext_transformed_color(display_get_gui_width()/2,300,"Exit",15,100,2,2,0,restart_col,restart_col,restart_col,restart_col,1);
 	draw_text_ext_transformed_color(display_get_gui_width()/2,350,"Credits",15,100,2,2,0,credits,credits,credits,credits,1);
  	
-	
+	 
 draw_set_halign(fa_left);
 
 
