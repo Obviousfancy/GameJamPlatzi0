@@ -1,1 +1,1 @@
-//draw_text(10,10,hp);
+draw_text(10,10,hp);

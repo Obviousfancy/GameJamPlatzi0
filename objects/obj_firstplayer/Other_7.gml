@@ -1,8 +1,8 @@
 if(state == scr_state_attack){
-	/*if(attack_sensor != noone){
+	if(attack_sensor != noone){
 		instance_destroy(attack_sensor);
 	}
-	state = scr_state_idle;*/
+	state = scr_state_idle;
 }
 
 //luego de que te golpea un enemigo en diseño gráfico

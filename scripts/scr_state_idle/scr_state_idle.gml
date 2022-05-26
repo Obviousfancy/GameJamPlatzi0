@@ -9,10 +9,10 @@ function scr_state_idle(){
 	}
 	else if(attack){
 		image_index = 0;
-		/*if(attack_sensor == noone){
+		if(attack_sensor == noone){
 				attack_sensor = instance_create_layer(x+(30*h_dir),y,"Instances",obj_player_attack_sensor);
 		
-		}*/
+		}
 		state = scr_state_attack; 
 	}
 }

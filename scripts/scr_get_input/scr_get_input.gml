@@ -1,4 +1,4 @@
-// Script assets have changed for v2.3.0 see
+ // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_get_input(){
 	if (gamepad_is_connected(0)){
@@ -38,7 +38,7 @@ function scr_get_input(){
 	
 	hsp = hor * spd;
 	vsp = ver * spd;
-	*/
+   	*/
 	//Acciones del personaje
 	attack = keyboard_check(ord("J")) ;
 	
