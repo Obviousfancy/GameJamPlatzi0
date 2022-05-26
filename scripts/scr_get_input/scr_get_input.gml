@@ -6,12 +6,14 @@ function scr_get_input(){
 	//Gamepad button input
 	
 	//Movimiento
-	right =  gamepad_button_check(0,gp_padr );
-	left =  gamepad_button_check(0,gp_padl);
-	up  =   gamepad_button_check(0,gp_padu);
-	down =   gamepad_button_check(0,gp_padd);
-	run = gamepad_button_check(0,gp_face3);
 	
+	right =  +(gamepad_axis_value(0,gp_axislh));/*gamepad_button_check(0,gp_padr );*/
+	left =  -(gamepad_axis_value(0,gp_axislh));/*gamepad_button_check(0,gp_padl);*/
+	up  =   -(gamepad_axis_value(0,gp_axislv));/*gamepad_button_check(0,gp_padu);*/
+	down =   +(gamepad_axis_value(0,gp_axislv));/*gamepad_button_check(0,gp_padd);*/
+	run = gamepad_button_check(0,gp_face3);
+	//hor = right - left;
+	//ver = down - up;
 	//Acciones del personaje
 	attack = gamepad_button_check(0,gp_face1) 
 	
@@ -48,5 +50,6 @@ function scr_get_input(){
 	up_tap = keyboard_check_released(vk_up) || keyboard_check_released(ord("W")) ;
 	down_tap = keyboard_check_released(vk_down) || keyboard_check_released(ord("S")) ;
 	 }
-	
+	hor = right - left;
+	ver = down - up;
 }

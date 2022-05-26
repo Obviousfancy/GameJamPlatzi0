@@ -5,7 +5,8 @@
 
 state = scr_state_idle;
 
-h_dir = 1;
+//h_dir = 1;
+dir_x = 1;
 
 
 

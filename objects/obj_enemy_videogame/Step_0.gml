@@ -2,7 +2,7 @@ depth = -y; //Le da profundidad a nuestro personaje dependiendo cual estemos pas
 script_execute(state);
 
 if(hp_enemy<=0){
-	sprite_index = spr_main_attack; 
+	instance_destroy(); 
 	
 }
 

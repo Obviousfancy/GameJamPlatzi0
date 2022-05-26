@@ -1,1 +1,5 @@
-other.hp_enemy -= 5;
+with(other){
+	hp_enemy -=10;
+
+}
+instance_destroy();
