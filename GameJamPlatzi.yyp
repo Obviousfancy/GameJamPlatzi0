@@ -54,10 +54,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room_04_Scene_design","path":"rooms/Room_04_Scene_design/Room_04_Scene_design.yy",},},
     {"roomId":{"name":"Room_01_Splash_Screen","path":"rooms/Room_01_Splash_Screen/Room_01_Splash_Screen.yy",},},
     {"roomId":{"name":"Room_02_Main_Title","path":"rooms/Room_02_Main_Title/Room_02_Main_Title.yy",},},
     {"roomId":{"name":"Room_03_Scene_Program","path":"rooms/Room_03_Scene_Program/Room_03_Scene_Program.yy",},},
+    {"roomId":{"name":"Room_04_Scene_design","path":"rooms/Room_04_Scene_design/Room_04_Scene_design.yy",},},
     {"roomId":{"name":"Room_05_Scene_Videogames","path":"rooms/Room_05_Scene_Videogames/Room_05_Scene_Videogames.yy",},},
     {"roomId":{"name":"Room_07_Ending","path":"rooms/Room_07_Ending/Room_07_Ending.yy",},},
     {"roomId":{"name":"Room_Credits","path":"rooms/Room_Credits/Room_Credits.yy",},},

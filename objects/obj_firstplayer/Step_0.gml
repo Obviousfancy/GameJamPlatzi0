@@ -1,4 +1,4 @@
-if (global.golpe) exit;
+
 scr_get_input();
 
 script_execute(state);
@@ -10,4 +10,4 @@ if( pause && !instance_exists(obj_pause)){
 
 }
 depth = -y; 
-
+//if (global.golpe) exit;
