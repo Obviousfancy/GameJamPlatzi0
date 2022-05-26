@@ -1,1 +1,1 @@
-save_hp_to_controller();
+//save_hp_to_controller();

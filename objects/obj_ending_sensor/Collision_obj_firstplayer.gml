@@ -1,1 +1,1 @@
-room_goto(Room_04_Ending);
+room_goto(Room_07_Ending);
