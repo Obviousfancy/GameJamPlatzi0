@@ -6,7 +6,7 @@
 state = scr_state_idle;
 
 h_dir = 1;
- attack_sensor = noone;
+
 
 
 /*save_hp_to_controller = function(){
