@@ -10,4 +10,4 @@ if( pause && !instance_exists(obj_pause)){
 
 }
 depth = -y; 
-//if (global.golpe) exit;
+if (global.golpe) exit;

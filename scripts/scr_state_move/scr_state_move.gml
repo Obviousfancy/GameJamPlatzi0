@@ -4,29 +4,33 @@ function scr_state_move(){
 if(right){
 		 x = x+spd;
 		 h_dir = 1;
+		 sprite_index = spr_main_char_walking;
 		 //Sustituimos el xscale por h_dir
 		 //Escala la imagen para darle ciertos efectos, util en explosiones o muertes	 
 	}else if(left){
 		 x = x-spd;
 		 h_dir = -1;
+		 sprite_index = spr_main_char_walking;
 		 //Image_xscale = -1;
 		 //Escala la imagen para darle ciertos efectos, util en explosiones o muertes	 
 	}else if(up){
 		 y = y-spd;
 		 //En GMS, funciona al reves el eje y, si queremos subir tenemos que poner -
 		 h_dir = 1;
+		 sprite_index = spr_main_char_walk_up;
 		 //image_xscale = -1;
 		 //Escala la imagen para darle ciertos efectos, util en explosiones o muertes	 
 	}else if(down){
 		 y = y+spd;
 		 //En GMS, funciona al reves el eje y, si queremos subir tenemos que poner +
 		 h_dir = 1;
+		 sprite_index = spr_main_char_walk_down;
 		 //image_xscale = -1;
 		 //Escala la imagen para darle ciertos efectos, util en explosiones o muertes	 
 	}	
 	
 	image_xscale = h_dir;
-	sprite_index = spr_main_char_walking;
+	
 	
 	if(!right && !left && !up && !down){
 			state = scr_state_idle;
