@@ -1,8 +1,19 @@
  
- spd = 1; 
- hp = 100;
- hp = obj_game_controller.player_data[? "hp"]; 
-
+  spd = 1; 
+  hp = obj_game_controller.player_data[? "hp"]  ; 
+  
+  /*
+  //Variables para los items
+  npcPrompt = noone;
+  lookRange = 30;
+  nearbyNPC = noone;
+  hasItem = noone;
+  hasItemX = x;
+  hasItemY = y;
+  nearbyItem = noone;
+  itemPrompt = noone;
+  carryLimit = 0;
+  */
 state = scr_state_idle;
 
 //h_dir = 1;
