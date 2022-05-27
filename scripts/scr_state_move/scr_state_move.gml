@@ -37,6 +37,10 @@ if(right){
 	image_xscale = h_dir;
 	*/
 	
+	hor = right - left;
+	ver = down - up;
+	//state = scr_state_move;
+	//scr_state_move();
 	if(hor !=0 || ver != 0){
 	dire = point_direction(0,0,hor,ver);
 	x += lengthdir_x(spd,dire);
@@ -45,6 +49,6 @@ if(right){
 	if(!right && !left && !up && !down){
 			state = scr_state_idle;
 	}
-
+	
 	//Con sprite index le asignaremos una animacion a nuestro personaje	 
 }

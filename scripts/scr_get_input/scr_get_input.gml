@@ -50,6 +50,6 @@ function scr_get_input(){
 	up_tap = keyboard_check_released(vk_up) || keyboard_check_released(ord("W")) ;
 	down_tap = keyboard_check_released(vk_down) || keyboard_check_released(ord("S")) ;
 	 }
-	hor = right - left;
-	ver = down - up;
+	/*hor = right - left;
+	ver = down - up;*/
 }
