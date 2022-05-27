@@ -45,7 +45,10 @@ if(right){
 	dire = point_direction(0,0,hor,ver);
 	x += lengthdir_x(spd,dire);
 	y +=  lengthdir_y(spd,dire);
+	scr_look_char(dire);
 	}
+	
+	
 	if(!right && !left && !up && !down){
 			state = scr_state_idle;
 	}

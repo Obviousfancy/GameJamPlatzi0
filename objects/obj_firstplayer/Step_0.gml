@@ -1,4 +1,4 @@
-
+if (global.golpe) exit;
 scr_get_input();
 
 script_execute(state);
@@ -15,4 +15,5 @@ if(hp<=0){
 
 	room_goto(Room_Game_Over);
 }
-if (global.golpe) exit;
+
+show_debug_message(hp);
