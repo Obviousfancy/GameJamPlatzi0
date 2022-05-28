@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_dismissprompt(_whichPrompt,_toReset){
-	if (_whichPrompt != undefined)
+if (_whichPrompt != undefined)
 	{
 		if (instance_exists(_whichPrompt))
 		{
@@ -16,7 +16,7 @@ function scr_dismissprompt(_whichPrompt,_toReset){
 				with (obj_firstplayer)
 				{
 					switch _toReset
-					{
+					{ 
 						// Reset npcPrompt
 						case 0: npcPrompt = noone; break;
 						case 1: itemPrompt = noone; break;
@@ -25,5 +25,4 @@ function scr_dismissprompt(_whichPrompt,_toReset){
 			}
 		}
 	}
-
 }

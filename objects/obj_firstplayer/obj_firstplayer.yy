@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_main_char_idle",
-    "path": "sprites/spr_main_char_idle/spr_main_char_idle.yy",
+    "name": "spr_main_char_idle_down",
+    "path": "sprites/spr_main_char_idle_down/spr_main_char_idle_down.yy",
   },
   "solid": false,
   "visible": true,
@@ -37,6 +37,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_power","path":"objects/obj_power/obj_power.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

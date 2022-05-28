@@ -6,7 +6,7 @@
     "path": "folders/Scripts/grp_scene_videogame.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_dismissPrompt",
+  "name": "scr_dismissprompt",
   "tags": [],
   "resourceType": "GMScript",
 }

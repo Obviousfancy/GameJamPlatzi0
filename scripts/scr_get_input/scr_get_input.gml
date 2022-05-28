@@ -7,16 +7,13 @@ function scr_get_input(){
 	
 	//Movimiento
 	
-	right =  +(gamepad_axis_value(0,gp_axislh));/*gamepad_button_check(0,gp_padr );*/
-	left =  -(gamepad_axis_value(0,gp_axislh));/*gamepad_button_check(0,gp_padl);*/
-	up  =   -(gamepad_axis_value(0,gp_axislv));/*gamepad_button_check(0,gp_padu);*/
-	down =   +(gamepad_axis_value(0,gp_axislv));/*gamepad_button_check(0,gp_padd);*/
+	right =  +(gamepad_axis_value(0,gp_axislh)) || gamepad_button_check(0,gp_padr );
+	left =  -(gamepad_axis_value(0,gp_axislh)) || gamepad_button_check(0,gp_padl);
+	up  =   -(gamepad_axis_value(0,gp_axislv)) || gamepad_button_check(0,gp_padu);
+	down =   +(gamepad_axis_value(0,gp_axislv))||gamepad_button_check(0,gp_padd);
 	run = gamepad_button_check(0,gp_face3);
-	//hor = right - left;
-	//ver = down - up;
 	//Acciones del personaje
-	attack = gamepad_button_check(0,gp_face1) 
-	
+	attack = gamepad_button_check(0,gp_face1) ;
 	//Acciones en el menu
 	pause = gamepad_button_check_pressed(0,gp_start);//Aqui solo queremos saber si se presiono una vez
 	continue_restart = gamepad_button_check_pressed(0,gp_start);
@@ -34,13 +31,6 @@ function scr_get_input(){
 	down = keyboard_check(vk_down) || keyboard_check(ord("S")) ;
 	run = keyboard_check(vk_shift);
 	
-	/*
-	hor = (right - left);
-	ver = (down - up);
-	
-	hsp = hor * spd;
-	vsp = ver * spd;
-   	*/
 	//Acciones del personaje
 	attack = keyboard_check(ord("J")) ;
 	

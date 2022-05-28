@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "spr_scene1",
-    "path": "folders/Sprites/spr_scene1.yy",
+    "path": "folders/Sprites/Scenes_Background/spr_scene1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_item05",
