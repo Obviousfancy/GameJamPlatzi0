@@ -1,16 +1,60 @@
 /// @description //Prueba de textbox
 
 var _text;
-//Create a textbox si el NPC esta cerca
-if(nearbyNPC && global.playerControl == true){
-	_text = nearbyNPC.myText;
-	if(!instance_exists(obj_text_box)){
-		iii = instance_create_depth(x+115,y-80,-9998,obj_text_box);
-		iii.textToShow = _text;
-		/*
-		Cuanto menor sea el numero en el -10000
-		mas cerca de la camara estara
-		*/
-}
+if(global.playerControl == true){
+	//Si hay un NPC cerca
+	if(nearbyNPC){
+		//Si el jugador no tiene un item
+		if(hasItem == noone || hasItem == undefined){
+			_text = nearbyNPC.myText;
+			if(!instance_exists(obj_text_box)){
+			iii = instance_create_depth(x+115,y-80,-10000,obj_text_box);
+			iii.textToShow = _text;	
+			}
+		}
+	}
+ //If hay un item cerca
+ if(nearbyItem && !nearbyNPC){
+	//Si el jugador no tiene un item
+	if(hasItem == noone || hasItem == undefined){
+		//Le quitamos el control al usuario
+		global.playerControl = false;
+		myState = playerState.pickingUp;
+		//Iniciamos la animacion de vuelta a cero cuando termine el control
+		image_index = 0;
+		//Asignamos el valor de lo que tengamos cerca
+		//en la variable near
+		hasItem = nearbyItem;
+		carryLimit = hasItem.itemWeight * 0.1;
+		//cambiamos el estado del item a agarrado o picking up
+		with(hasItem){
+			myState = itemState.taken;
+		}
 
+		
+	}
+ 
+ }
+ // sI NO HAY UN NPC NI UN ITEM
+ if (!nearbyItem && !nearbyNPC)
+	{
+		// Put down an item
+		if (hasItem != noone)
+		{
+			myState = playerState.puttingDown;
+			image_index = 0;
+			global.playerControl = false;
+			// Change state of item we were carrying
+			with (hasItem)
+			{
+				putDownY = obj_firstplayer.y+5;
+				myState = itemState.puttingBack;
+			}
+			// Play put-down sound
+			//audio_play_sound(snd_itemPutDown,1,0);
+			// Reset item
+			hasItem = noone;
+		}
+	}
 }
+	

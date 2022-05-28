@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_look_char(dire){
+function scr_look_char(){
 	
 	//Change walking based on movement
 	//right
@@ -20,8 +20,13 @@ function scr_look_char(dire){
 		dir_main = 1;
 	}
 	
-	// Set State
+	//SET sTATE
 	myState = playerState.walking;
+	
+			
+		
+	// Set State
+	//myState = playerState.walking;
 	/*
 	if (dire < 22.5 || dire >= 337.5) {
 		sprite_index = spr_main_char_walking;

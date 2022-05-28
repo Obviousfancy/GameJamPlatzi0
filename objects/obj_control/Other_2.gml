@@ -13,11 +13,11 @@ enum playerState
 	carrying,
 	carryIdle,
 	puttingDown,
+	attacking,
 }
 	
 // Item states
-enum itemState
-{
+enum itemState{
 	idle,
 	taken,
 	used,
@@ -32,10 +32,10 @@ enum seqState
 	playing,
 	finished,
 }
-// Sequence variables
+/*Sequence variables
 sequenceState = seqState.notPlaying;
 curSeqLayer = noone;
-curSeq = noone;
+curSeq = noone;*/
 
 // NPC states
 enum npcState
