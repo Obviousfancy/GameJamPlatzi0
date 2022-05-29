@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 9,
-  "bbox_right": 77,
-  "bbox_top": 5,
-  "bbox_bottom": 87,
+  "bbox_left": 0,
+  "bbox_right": 575,
+  "bbox_top": 21,
+  "bbox_bottom": 551,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 90,
-  "height": 90,
+  "width": 576,
+  "height": 576,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,44 +24,52 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"86fb4f98-469a-457f-a013-55c19904195e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"86fb4f98-469a-457f-a013-55c19904195e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"4e6f0a40-4139-4cf2-80ae-47983d90ff22","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"86fb4f98-469a-457f-a013-55c19904195e","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"53cf2405-bf26-4795-abfa-1188e1dde8f7","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"53cf2405-bf26-4795-abfa-1188e1dde8f7","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"4e6f0a40-4139-4cf2-80ae-47983d90ff22","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"53cf2405-bf26-4795-abfa-1188e1dde8f7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c94b9ffa-091e-4680-aa5d-7bd6ffd6fae9","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c94b9ffa-091e-4680-aa5d-7bd6ffd6fae9","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"4e6f0a40-4139-4cf2-80ae-47983d90ff22","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"c94b9ffa-091e-4680-aa5d-7bd6ffd6fae9","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"14e9fbd3-5bcb-4bd7-9bb4-1f40d91e763c","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"14e9fbd3-5bcb-4bd7-9bb4-1f40d91e763c","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"4e6f0a40-4139-4cf2-80ae-47983d90ff22","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"14e9fbd3-5bcb-4bd7-9bb4-1f40d91e763c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"0eedf3c3-e5b2-4671-9a0b-098683feadea","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0eedf3c3-e5b2-4671-9a0b-098683feadea","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"4e6f0a40-4139-4cf2-80ae-47983d90ff22","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"0eedf3c3-e5b2-4671-9a0b-098683feadea","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a805b45a-59bf-4aca-86c9-312235487323","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a805b45a-59bf-4aca-86c9-312235487323","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"4e6f0a40-4139-4cf2-80ae-47983d90ff22","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"a805b45a-59bf-4aca-86c9-312235487323","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c0b7112d-5e9f-435a-8943-475ea68b3e6f","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c0b7112d-5e9f-435a-8943-475ea68b3e6f","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"5d8ced1a-97ce-4846-8999-f2631405a22e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"c0b7112d-5e9f-435a-8943-475ea68b3e6f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"30097e31-28de-484c-8576-9fe89dd1a893","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"30097e31-28de-484c-8576-9fe89dd1a893","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"5d8ced1a-97ce-4846-8999-f2631405a22e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"30097e31-28de-484c-8576-9fe89dd1a893","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4206b27a-7907-4d23-8208-a7d7a27318cf","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4206b27a-7907-4d23-8208-a7d7a27318cf","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"5d8ced1a-97ce-4846-8999-f2631405a22e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"4206b27a-7907-4d23-8208-a7d7a27318cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"db0311e4-b00c-4589-b06b-ff852d6ce715","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"db0311e4-b00c-4589-b06b-ff852d6ce715","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"5d8ced1a-97ce-4846-8999-f2631405a22e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"db0311e4-b00c-4589-b06b-ff852d6ce715","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"60f6b440-3cca-4df4-bc94-16f9d8d32ce9","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"60f6b440-3cca-4df4-bc94-16f9d8d32ce9","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"5d8ced1a-97ce-4846-8999-f2631405a22e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"60f6b440-3cca-4df4-bc94-16f9d8d32ce9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4f2db93d-3c97-4360-9780-0e3ac37b5545","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4f2db93d-3c97-4360-9780-0e3ac37b5545","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"5d8ced1a-97ce-4846-8999-f2631405a22e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"4f2db93d-3c97-4360-9780-0e3ac37b5545","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"031c68b0-5ea3-4179-b8ab-016326f761cf","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"031c68b0-5ea3-4179-b8ab-016326f761cf","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"5d8ced1a-97ce-4846-8999-f2631405a22e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"031c68b0-5ea3-4179-b8ab-016326f761cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c083c637-8a84-4f8b-a6e7-2b6510723a4c","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c083c637-8a84-4f8b-a6e7-2b6510723a4c","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"LayerId":{"name":"5d8ced1a-97ce-4846-8999-f2631405a22e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","name":"c083c637-8a84-4f8b-a6e7-2b6510723a4c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 6.0,
+    "length": 8.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"485e1e69-191b-4013-a092-8a9336be5161","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86fb4f98-469a-457f-a013-55c19904195e","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"203c9972-aa5a-436b-af7f-4b96b3d1722a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"53cf2405-bf26-4795-abfa-1188e1dde8f7","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"fb4893fe-db3e-48dd-862e-11666132019b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c94b9ffa-091e-4680-aa5d-7bd6ffd6fae9","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"8844329e-ea22-4386-9e8b-95dd2dd0c185","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"14e9fbd3-5bcb-4bd7-9bb4-1f40d91e763c","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"1f6ee9b6-dfa2-4a81-9757-fe6da362e576","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0eedf3c3-e5b2-4671-9a0b-098683feadea","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"c88b1260-764a-4ce1-b30c-8f09cd1a0420","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a805b45a-59bf-4aca-86c9-312235487323","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2d0362cc-8aab-4d45-9f24-cc298bba3db8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c0b7112d-5e9f-435a-8943-475ea68b3e6f","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5f2eb2c1-fc25-448e-a85f-f002cf54b0ec","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"30097e31-28de-484c-8576-9fe89dd1a893","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"432c6db8-9d96-4e86-86e5-a5063f417372","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4206b27a-7907-4d23-8208-a7d7a27318cf","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"737b8fed-998f-4fc4-8ba9-fd94d4922dbd","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"db0311e4-b00c-4589-b06b-ff852d6ce715","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"63610679-ac59-4eaa-8471-5f0b5f78c5d9","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"60f6b440-3cca-4df4-bc94-16f9d8d32ce9","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b210bf9c-77cb-4369-bed5-cca717923d75","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4f2db93d-3c97-4360-9780-0e3ac37b5545","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f860b0b1-5c9d-4e01-8f97-bd32a343e6ae","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"031c68b0-5ea3-4179-b8ab-016326f761cf","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"879f908d-ec9f-4d75-becc-a7049384de97","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c083c637-8a84-4f8b-a6e7-2b6510723a4c","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -74,8 +82,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 45,
-    "yorigin": 45,
+    "xorigin": 288,
+    "yorigin": 288,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_move_videogame","path":"sprites/spr_enemy_move_videogame/spr_enemy_move_videogame.yy",},
@@ -85,7 +93,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4e6f0a40-4139-4cf2-80ae-47983d90ff22","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5d8ced1a-97ce-4846-8999-f2631405a22e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -15,8 +15,9 @@ if(other.sprite_index==spr_enemy_weak)
 else
 if (global.golpe==false)
 {
-	hp-=1;
+	health-=20;
 	sprite_index=spr_main_char_dead;
 	global.golpe=true;
 }
+
 

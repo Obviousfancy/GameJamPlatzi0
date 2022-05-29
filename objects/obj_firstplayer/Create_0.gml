@@ -1,6 +1,9 @@
  
-  spd = 2; 
-  hp = obj_game_controller.player_data[? "hp"]  ; 
+spd = 2; 
+ health = obj_game_controller.player_data[? "hp"]  ;  
+global.points=obj_game_controller.player_data[? "points"];
+global.power=false;
+global.golpe=false;
   //state = scr_state_idle;  
   //scr_get_input();
 
@@ -81,9 +84,10 @@ playerSpr[playerState.puttingDown][3] = spr_main_char_attacking_down;
 
 
 save_hp_to_controller = function(){
-	obj_game_controller.player_data[? "hp"] = hp;
+	obj_game_controller.player_data[? "hp"] = health;
+}
+save_points_to_controller = function(){
+	obj_game_controller.player_data[? "points"] = global.points;
 }
  
-global.points=0;
-global.power=false;
-global.golpe=false;
+

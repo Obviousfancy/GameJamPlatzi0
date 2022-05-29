@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 13,
-  "bbox_right": 74,
-  "bbox_top": 10,
-  "bbox_bottom": 84,
+  "bbox_left": 3,
+  "bbox_right": 572,
+  "bbox_top": 21,
+  "bbox_bottom": 551,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 90,
-  "height": 90,
+  "width": 576,
+  "height": 576,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,48 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ca2a4a94-cfb9-44b6-ac13-7f4a99a3af02","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ca2a4a94-cfb9-44b6-ac13-7f4a99a3af02","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"ca2a4a94-cfb9-44b6-ac13-7f4a99a3af02","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"752e9a7f-b8a5-45e2-9ae6-2ac7a43b12de","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"752e9a7f-b8a5-45e2-9ae6-2ac7a43b12de","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"752e9a7f-b8a5-45e2-9ae6-2ac7a43b12de","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"072d8fa2-a982-44c6-8d62-97601916b787","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"072d8fa2-a982-44c6-8d62-97601916b787","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"072d8fa2-a982-44c6-8d62-97601916b787","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"40ab9893-ae04-4912-9702-69fc55812843","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"40ab9893-ae04-4912-9702-69fc55812843","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"40ab9893-ae04-4912-9702-69fc55812843","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9b01b4a8-2e74-482b-8a76-f2dc832a0da1","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9b01b4a8-2e74-482b-8a76-f2dc832a0da1","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"9b01b4a8-2e74-482b-8a76-f2dc832a0da1","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"19e1a906-66ed-4fd5-9830-bcb80fd5e4ea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"19e1a906-66ed-4fd5-9830-bcb80fd5e4ea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"19e1a906-66ed-4fd5-9830-bcb80fd5e4ea","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c7fc6f49-ecc0-427d-9cd2-5eef83912a72","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c7fc6f49-ecc0-427d-9cd2-5eef83912a72","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"c7fc6f49-ecc0-427d-9cd2-5eef83912a72","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"201cab72-8913-400a-b2e3-2fdbf787570c","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"201cab72-8913-400a-b2e3-2fdbf787570c","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"201cab72-8913-400a-b2e3-2fdbf787570c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"93caa7b3-17be-451e-973e-fb102c62ce09","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"93caa7b3-17be-451e-973e-fb102c62ce09","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"93caa7b3-17be-451e-973e-fb102c62ce09","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"70391d2c-9e20-48c9-a2f1-0e1d785fc221","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"70391d2c-9e20-48c9-a2f1-0e1d785fc221","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"70391d2c-9e20-48c9-a2f1-0e1d785fc221","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ea59f7f7-6c10-41e5-b8fd-147679c400bc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ea59f7f7-6c10-41e5-b8fd-147679c400bc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"ea59f7f7-6c10-41e5-b8fd-147679c400bc","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"67918a03-d145-4f55-8d88-778bdf62042a","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"67918a03-d145-4f55-8d88-778bdf62042a","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"67918a03-d145-4f55-8d88-778bdf62042a","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"40041c07-47c5-4450-b890-861723ab05aa","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"40041c07-47c5-4450-b890-861723ab05aa","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"40041c07-47c5-4450-b890-861723ab05aa","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cd169f87-b137-469d-9dc6-92290343c6bc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd169f87-b137-469d-9dc6-92290343c6bc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"cd169f87-b137-469d-9dc6-92290343c6bc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a505f163-a692-4aaa-9a01-4a5bc780f7cc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a505f163-a692-4aaa-9a01-4a5bc780f7cc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"LayerId":{"name":"715295ad-8815-457e-aea7-34c50cb62d82","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","name":"a505f163-a692-4aaa-9a01-4a5bc780f7cc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},
@@ -75,25 +36,12 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 14.0,
+    "length": 1.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ac47a2b8-607e-486b-b7ed-adc36e740186","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ca2a4a94-cfb9-44b6-ac13-7f4a99a3af02","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"6a997804-16c6-428b-a3c0-3b1449c87ce2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"752e9a7f-b8a5-45e2-9ae6-2ac7a43b12de","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"defaeb6a-0e0b-4519-a779-7488cd6ac21f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"072d8fa2-a982-44c6-8d62-97601916b787","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"752deaa6-08a3-4ac1-b0ed-c3ef0ea51ed1","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"40ab9893-ae04-4912-9702-69fc55812843","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"30ac4dbe-9222-4eaf-91dc-bd8d158f6489","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b01b4a8-2e74-482b-8a76-f2dc832a0da1","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"99d816ae-9ed2-4c6f-a39f-a66aab4311d9","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"19e1a906-66ed-4fd5-9830-bcb80fd5e4ea","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"71a83714-bfc3-4d51-a9e1-5075d01fcea5","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c7fc6f49-ecc0-427d-9cd2-5eef83912a72","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"448a4c62-f028-4d24-a7b3-8e4737a7c4cf","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"201cab72-8913-400a-b2e3-2fdbf787570c","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"52ac19cc-3e6f-4871-9aee-f992bf147798","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"93caa7b3-17be-451e-973e-fb102c62ce09","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"ee2117cc-1071-47ee-802c-d78006c773c4","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"70391d2c-9e20-48c9-a2f1-0e1d785fc221","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a0d7c085-a2ac-40d0-b9fe-7d5738952412","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea59f7f7-6c10-41e5-b8fd-147679c400bc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"4a9abd3f-b947-4383-bd93-c626c1afad08","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"67918a03-d145-4f55-8d88-778bdf62042a","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"c8483155-4651-44b7-b8b5-01ac506b8306","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"40041c07-47c5-4450-b890-861723ab05aa","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"443c7667-b67b-4ebd-97aa-040132baf4a9","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd169f87-b137-469d-9dc6-92290343c6bc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"620e67bc-841f-465f-b640-46221900bc79","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a505f163-a692-4aaa-9a01-4a5bc780f7cc","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -106,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 45,
-    "yorigin": 45,
+    "xorigin": 288,
+    "yorigin": 288,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_idle_videogame","path":"sprites/spr_enemy_idle_videogame/spr_enemy_idle_videogame.yy",},
@@ -117,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a78eaeb3-1e64-4758-8b32-8a346625bdea","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"715295ad-8815-457e-aea7-34c50cb62d82","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -113,11 +113,19 @@ if( pause && !instance_exists(obj_pause)){
 
 }
 
+ 
 
-
-if(hp<=0){
+if(health<=0){
 
 	room_goto(Room_Game_Over);
+}
+
+if room==Room_03_Scene_Program
+{
+if(obj_computadora.sprite_index==spr_compu_bien)
+{
+	instance_create_layer(1319,388,"Instances", obj_go_to_next_room);
+}
 }
 
 //show_debug_message(hp);
