@@ -1,5 +1,5 @@
  
-  spd = 1; 
+  spd = 3; 
   hp = obj_game_controller.player_data[? "hp"]  ; 
   //state = scr_state_idle;  
   //scr_get_input();
