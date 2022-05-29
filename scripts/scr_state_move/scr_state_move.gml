@@ -2,8 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_state_move(){
 	
-	hor = (right - left) * spd * (1-carryLimit);
-	ver = (down - up) * spd * (1-carryLimit);
+	hor = (right - left) * (spd+runSpeed) * (1-carryLimit);
+	ver = (down - up) * (spd+runSpeed) * (1-carryLimit);
 	
 	if(hor == 0 && ver == 0){
 		//Si no ha levantado nada  ni bajo ningun item

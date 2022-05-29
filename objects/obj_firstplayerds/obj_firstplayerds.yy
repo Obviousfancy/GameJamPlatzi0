@@ -46,7 +46,7 @@
     "path": "folders/Objetos/grp_main_char.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_firstplayer31",
+  "name": "obj_firstplayerds",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -9,6 +9,7 @@ enum playerState
 {
 	idle,
 	walking,
+	running,
 	pickingUp,
 	carrying,
 	carryIdle,

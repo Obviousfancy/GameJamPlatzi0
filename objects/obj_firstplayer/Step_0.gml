@@ -1,6 +1,39 @@
 if (global.golpe) exit;
 scr_get_input();
 
+//Run with shift key
+//Speed up if running
+//scr_state_run();
+if(myState == playerState.walking){
+if(image_index >= image_number-1){
+			
+			if (run == true){
+		//Ramp up
+		if(runSpeed < runMax){
+			runSpeed += 2;
+			
+		}
+		if(starDust == 0){
+			alarm[2] = 2;
+			starDust = 1;
+		}
+		show_debug_message("corre");	
+	}
+	if(run == false){
+		//Ramp down
+		if(runSpeed > 0){
+			runSpeed -=1;
+			
+		}
+		starDust = 0;
+	}
+			
+		}
+}
+
+
+
+
 scr_state_move();
 //script_execute(state);
 //scr_state_run();	

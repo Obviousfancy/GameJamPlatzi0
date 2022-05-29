@@ -1,5 +1,5 @@
  
-  spd = 3; 
+  spd = 2; 
   hp = obj_game_controller.player_data[? "hp"]  ; 
   //state = scr_state_idle;  
   //scr_get_input();
@@ -9,7 +9,7 @@
   
   */
   dir_main = 3;
-  nearbyNPC = noone;
+  nearbyNPC = noone;  
   lookRange = 30;
   npcPrompt = noone;
   hasItem = noone;
@@ -19,7 +19,10 @@
   itemPrompt = noone;
   carryLimit = 0;
   myState = playerState.idle;
-  
+  runSpeed = 0;
+  runMax = 4;
+  run = false;
+  starDust = 0;
    
   // Player Sprite array [myState][dir]
 // Idle
@@ -33,6 +36,12 @@ playerSpr[playerState.walking][0] = spr_main_char_walk_right;
 playerSpr[playerState.walking][1] = spr_main_char_walk_up;
 playerSpr[playerState.walking][2] = spr_main_char_walk_left;
 playerSpr[playerState.walking][3] = spr_main_char_walk_down;
+
+//Running
+playerSpr[playerState.running][0] = spr_main_char_running_right;
+playerSpr[playerState.running][1] = spr_main_char_running_up;
+playerSpr[playerState.running][2] = spr_main_char_running_left;
+playerSpr[playerState.running][3] = spr_main_char_running_down;
 
 // Picking up
 playerSpr[playerState.pickingUp][0] = spr_main_char_pickup_right;
