@@ -5,7 +5,6 @@ scr_get_input();
 if(space == true){
 scr_spacefuncion();
 }
-
 //Run with shift key
 //Speed up if running
 //scr_state_run();
@@ -40,6 +39,8 @@ if(image_index >= image_number-1){
 
 
 scr_state_move();
+
+
 //script_execute(state);
 //scr_state_run();	
     
@@ -105,11 +106,20 @@ if(myState == playerState.puttingDown){
 		}
 }
 
+if (room == Room_03_Scene_Program)
+{
+if(obj_computadora.sprite_index == spr_compu_bien)
+{
+	instance_create_layer(1319,388,"Instances", obj_go_to_next_room);
+}
+}
+
 //Depth sorting
 depth = -y; 
 
 // Auto-choose Sprite based on state and direction
 sprite_index = playerSpr[myState][dir_main];
+
 
 //Pausa del juego
 if( pause && !instance_exists(obj_pause)){
@@ -125,12 +135,5 @@ if(health<=0){
 	room_goto(Room_Game_Over);
 }
 
-if room==Room_03_Scene_Program
-{
-if(obj_computadora.sprite_index==spr_compu_bien)
-{
-	instance_create_layer(1319,388,"Instances", obj_go_to_next_room);
-}
-}
 
 //show_debug_message(hp);

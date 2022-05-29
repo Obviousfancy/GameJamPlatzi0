@@ -10,3 +10,6 @@ if(instance_exists(obj_npc_cube_green_if) && instance_exists(obj_npc_cube_red_do
 	}
 
 }
+
+
+depth = -y;

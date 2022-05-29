@@ -6,8 +6,64 @@ function scr_state_move(){
 	ver = (down - up) * (spd+runSpeed) * (1-carryLimit);
 	
 	if(hor == 0 && ver == 0){
+		
+		//Si esta detenido por completo
 		//Si no ha levantado nada  ni bajo ningun item
 		if(myState != playerState.pickingUp && myState != playerState.puttingDown){
+			if(room == Room_05_Scene_Videogames){
+				if(attack == true){
+					if(myState == playerState.idle && dir_main == 0){
+					show_debug_message("Puedes atacar a la derecha");
+					var bullet = instance_create_layer(x+lengthdir_x(10,10),y,"Instances",obj_main_char_bullet);
+					//var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
+					bullet.dir = point_direction(x,y,obj_firstplayer.x,obj_firstplayer.y);
+					//state = scr_enemy_vg_idle;
+		
+					
+					//left
+					}
+					if(myState == playerState.idle && dir_main == 2){
+						show_debug_message("Puedes atacar izquierda");
+						var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
+					//var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
+					bullet.dir = point_direction(x,y,-(obj_firstplayer.x),obj_firstplayer.y);
+					//state = scr_enemy_vg_idle;
+					myState = playerState.attacking;
+						dir_main = 2;
+					//down
+					}
+					if(myState == playerState.idle && dir_main == 3){
+						show_debug_message("Puedes atacar izquierda");
+						var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
+					//var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
+					bullet.dir = point_direction(x,y,0,270);
+					//state = scr_enemy_vg_idle;
+					myState = playerState.attacking;
+						//dir_main = 2;
+						show_debug_message("Puedes atacar abajo");
+					}
+					//up
+					if(myState == playerState.idle && dir_main == 1){
+						show_debug_message("Puedes atacar izquierda");
+						var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
+					//var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
+					bullet.dir = point_direction(x,y,obj_firstplayer.x,-(obj_firstplayer.y));
+					//state = scr_enemy_vg_idle;
+					myState = playerState.attacking;
+						//dir_main = 2;
+						show_debug_message("Puedes atacar arriba");
+					}
+					//Si quedo en lado abajo
+					//Si quedo en lado izquierdo 
+					//Si quedo en lado derecho 
+					//Si quedo en lado arriba 
+					myState = playerState.attacking;
+				}
+			}else{
+				attack = noone;
+			show_debug_message("No puedes a}hacer nada");
+			}
+			
 			
 			if(hasItem == noone){
 				myState = playerState.idle;
@@ -17,8 +73,10 @@ function scr_state_move(){
 			else{
 			myState = playerState.carryIdle;
 			}
-	}
+			
 }
+
+	}
 	if(hor !=0 || ver != 0){
 		
 	
@@ -58,6 +116,7 @@ function scr_state_move(){
 	{
 		myState = playerState.carrying;
 	}
+	
 }	
 
 

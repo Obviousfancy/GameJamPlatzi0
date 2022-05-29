@@ -20,11 +20,11 @@ if(selected_option == 0){
 	var credits = c_yellow;
 }
      
-if(file_existance){
+/*if(file_existance){
 	var first_option_text = "Continue";
-}else{
+}else{*/
 	var first_option_text = "New Game";         
-}
+//}
 	draw_text_ext_transformed_color(display_get_gui_width()/2,250,first_option_text,15,100,2,2,0,continue_col,continue_col,continue_col,continue_col,1);
 	draw_text_ext_transformed_color(display_get_gui_width()/2,300,"Exit",15,100,2,2,0,restart_col,restart_col,restart_col,restart_col,1);
 	draw_text_ext_transformed_color(display_get_gui_width()/2,350,"Credits",15,100,2,2,0,credits,credits,credits,credits,1);

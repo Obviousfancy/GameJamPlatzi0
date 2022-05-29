@@ -120,6 +120,7 @@
     {"id":{"name":"spr_item07_purple_npc_switch","path":"sprites/spr_item07_purple_npc_switch/spr_item07_purple_npc_switch.yy",},"order":15,},
     {"id":{"name":"spr_main_char_pickup_left","path":"sprites/spr_main_char_pickup_left/spr_main_char_pickup_left.yy",},"order":11,},
     {"id":{"name":"obj_pantalla","path":"objects/obj_pantalla/obj_pantalla.yy",},"order":3,},
+    {"id":{"name":"scr_fade_out","path":"scripts/scr_fade_out/scr_fade_out.yy",},"order":10,},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},"order":1,},
     {"id":{"name":"TileSet_area","path":"tilesets/TileSet_area/TileSet_area.yy",},"order":2,},
     {"id":{"name":"spr_item_02red_done","path":"sprites/spr_item_02red_done/spr_item_02red_done.yy",},"order":1,},

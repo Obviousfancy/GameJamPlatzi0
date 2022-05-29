@@ -1,11 +1,17 @@
 /// @description Animation and effects
 
-
+scr_get_input();
 // Bob up and down
 y += shift;
 
 
 // Fade effects
+
+if(space == true){
+
+scr_fade_out()
+}
+
 switch fadeMe
 {
 	// Fade in
@@ -35,3 +41,5 @@ switch fadeMe
 		}
 	}; break;
 }
+
+// Begin fade out
