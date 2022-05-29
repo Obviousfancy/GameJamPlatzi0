@@ -11,7 +11,8 @@ function scr_get_input(){
 	left =  -(gamepad_axis_value(0,gp_axislh)) || gamepad_button_check(0,gp_padl);
 	up  =   -(gamepad_axis_value(0,gp_axislv)) || gamepad_button_check(0,gp_padu);
 	down =   +(gamepad_axis_value(0,gp_axislv))||gamepad_button_check(0,gp_padd);
-	run = gamepad_button_check(0,gp_face3);
+	run = gamepad_button_check(0,gp_face2);
+	space = gamepad_button_check(0,gp_face3);
 	//Acciones del personaje
 	attack = gamepad_button_check(0,gp_face1) ;
 	}if(global.playerControl == false){	
@@ -38,7 +39,7 @@ function scr_get_input(){
 	up = keyboard_check(vk_up) || keyboard_check(ord("W")) ;
 	down = keyboard_check(vk_down) || keyboard_check(ord("S")) ;
 	run = keyboard_check(vk_shift);
-	
+	space = keyboard_check_released(vk_space);
 	//Acciones del personaje
 	attack = keyboard_check(ord("J")) ;
 	}if(global.playerControl == false){	

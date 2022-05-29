@@ -32,12 +32,10 @@
     {"varType":2,"value":"\"Text for right item.\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"itemTextHappy","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":2,"value":"\"Text for wrong Item\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"itemTextSad","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":2,"value":"\"Thank you text\"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"itemTextDone","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":4,"value":"npcState.normal","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"myState","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
         "GMSprite",
-      ],"resourceVersion":"1.0","name":"sequenceWright","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
-        "GMSprite",
-      ],"resourceVersion":"1.0","name":"sequenceSad","tags":[],"resourceType":"GMObjectProperty",},
+      ],"resourceVersion":"1.0","name":"doneSprite","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

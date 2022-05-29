@@ -1,6 +1,6 @@
 
 
-draw_sprite_ext(spr_main_char_attacking_right,6,display_get_gui_width()/2-200,display_get_gui_height()/2,4,4,0,c_white,1);
+draw_sprite_ext(spr_main_char_attacking_down,3,display_get_gui_width()/2-250,display_get_gui_height()/2,4,4,0,c_white,1);
 draw_text_ext_transformed_color(display_get_gui_width()/2-90,display_get_gui_height()/2-150,"Fancy",0,100,8,8,0,c_red,c_red,c_red,c_red,1);
 draw_text_ext_transformed_color(display_get_gui_width()/2,display_get_gui_height()/2+5,"Studios",0,100,4,4,0,c_white,c_white,c_white,c_white,1)
 

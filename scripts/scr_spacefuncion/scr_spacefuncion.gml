@@ -1,15 +1,57 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function scr_spacefuncion(){
 /// @description //Prueba de textbox
 
 var _text;
 if(global.playerControl == true){
 	//Si hay un NPC cerca
 	if(nearbyNPC){
+		if(nearbyNPC.myState == npcState.normal){
 		//Si el jugador no tiene un item
 		if(hasItem == noone || hasItem == undefined){
 			_text = nearbyNPC.myText;
 			if(!instance_exists(obj_text_box)){
 			iii = instance_create_depth(x+115,y-80,-10000,obj_text_box);
 			iii.textToShow = _text;	
+			}
+		}
+		// If player has item (and it still exists)
+			if (hasItem != noone && instance_exists(hasItem))
+			{
+				// If player has correct item
+				if (hasItem.object_index == nearbyNPC.myItem)
+				{
+					_text = nearbyNPC.itemTextHappy;
+					show_debug_message("Este es tu objeto");
+										//sprite_index = spr_item_01green_done;
+					// Check if we should remove item, mark NPC
+					alarm[3] = 10;
+				}
+				// Or if player has incorrect item
+				else
+				{
+					_text = nearbyNPC.itemTextSad;
+					//_seq = nearbyNPC.sequenceSad;
+				}
+				// Create textbox
+				if (!instance_exists(obj_text_box))
+				{
+					iii = instance_create_depth(nearbyNPC.x,nearbyNPC.y-30,-10000,obj_text_box);
+					iii.textToShow = _text;
+					//iii.sequenceToShow = _seq;
+				}
+			}
+
+		}
+		//Si el NPC is done
+		if (nearbyNPC.myState == npcState.done)
+		{
+			_text = nearbyNPC.itemTextDone;
+			if (!instance_exists(obj_text_box))
+			{
+				iii = instance_create_depth(nearbyNPC.x,nearbyNPC.y-30,-10000,obj_text_box);
+				iii.textToShow = _text;
 			}
 		}
 	}
@@ -58,3 +100,4 @@ if(global.playerControl == true){
 	}
 }
 	
+}

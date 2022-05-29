@@ -1,6 +1,11 @@
 if (global.golpe) exit;
 scr_get_input();
 
+
+if(space == true){
+scr_spacefuncion();
+}
+
 //Run with shift key
 //Speed up if running
 //scr_state_run();

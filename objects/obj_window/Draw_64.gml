@@ -13,7 +13,7 @@ if (room==Room_03_Scene_Program)
 	draw_text_ext_transformed_color(display_get_gui_width()/2,100,"PROGRAMMING",10,500,3,3,0,c_blue,c_blue,c_blue,c_blue,1);
 
 	draw_text_ext_transformed_color(display_get_gui_width()/2,200,"Une los bloques que correspondan para completar la sala.",15,300,2,2,0,c_blue,c_blue,c_blue,c_blue,1);
-	draw_text_ext_transformed_color(display_get_gui_width()/2,300,"Recuerda que para agarrar o soltar debes pulsar enter.",15,300,2,2,0,c_blue,c_blue,c_blue,c_blue,1);
+	draw_text_ext_transformed_color(display_get_gui_width()/2,300,"Recuerda que para agarrar o soltar debes pulsar ESPACIO.",15,300,2,2,0,c_blue,c_blue,c_blue,c_blue,1);
 }
 if (room==Room_05_Scene_Videogames)
 {
