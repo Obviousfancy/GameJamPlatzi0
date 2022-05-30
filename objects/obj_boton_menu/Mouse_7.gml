@@ -8,7 +8,7 @@ if texto == "New Game"{
 	texto = "New Game";
 	}*/
 	
-	room_goto(Room_03_Scene_Program);
+	room_goto_next();
 }
 
 if texto == "Credits"{
