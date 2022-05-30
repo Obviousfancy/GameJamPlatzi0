@@ -8,8 +8,11 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": true,
+  "parentObjectId": {
+    "name": "obj_par_environment",
+    "path": "objects/obj_par_environment/obj_par_environment.yy",
+  },
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -21,10 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
-    {"x":64.0,"y":64.0,},
-    {"x":0.0,"y":64.0,},
+    {"x":34.0,"y":34.0,},
+    {"x":36.0,"y":34.0,},
+    {"x":36.0,"y":38.0,},
+    {"x":34.0,"y":38.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_firstplayer","path":"objects/obj_firstplayer/obj_firstplayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

@@ -33,7 +33,7 @@
     "path": "folders/Objetos/Npcs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_par_npc40",
+  "name": "obj_par_npc_walle",
   "tags": [],
   "resourceType": "GMObject",
 }
