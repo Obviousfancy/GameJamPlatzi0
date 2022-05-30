@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_main_char_idle",
-    "path": "sprites/spr_main_char_idle/spr_main_char_idle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,32 +17,27 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-<<<<<<< Updated upstream
     {"x":0.0,"y":0.0,},
-    {"x":35.0,"y":0.0,},
-    {"x":35.0,"y":61.0,},
-    {"x":0.0,"y":61.0,},
-=======
-    {"x":26.0,"y":6.0,},
-    {"x":71.0,"y":6.0,},
-    {"x":71.0,"y":92.0,},
-    {"x":26.0,"y":92.0,},
->>>>>>> Stashed changes
+    {"x":90.0,"y":0.0,},
+    {"x":90.0,"y":90.0,},
+    {"x":0.0,"y":90.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "grp_main_char",
-    "path": "folders/Objetos/grp_main_char.yy",
+    "name": "grp_enemy_char",
+    "path": "folders/Objetos/grp_enemy_char.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_firstplayer",
+  "name": "obj_enemy_videogame",
   "tags": [],
   "resourceType": "GMObject",
 }
