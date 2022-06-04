@@ -40,7 +40,7 @@ function scr_get_input(){
 	run = keyboard_check(vk_shift);
 	
 	//Acciones del personaje
-	attack = keyboard_check(ord("J")) ;
+	attack = keyboard_check_released(ord("J")) ;
 	}if(global.playerControl == false){	
 		right = 0;
 		left = 0;

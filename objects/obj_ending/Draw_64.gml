@@ -16,7 +16,3 @@ draw_set_halign(fa_left);
 if(keyboard_check(vk_enter)){
 	game_restart();	  
 }
-
-
-
-draw_text_ext_transformed_color(display_get_gui_width()/2,display_get_gui_height()/2,"Platziverse era el planeta que creaba\nlos mejores videojuegos en el espacio,\nya que sus habitantes, los platzinautas,\nnunca paraban de aprender.\n\n Un dia, una malvada criatura\n(la desmotivacion) se apodero del lugar,\nsembrando pereza y procastinacion...",20,500,2,2,0,c_white,c_white,c_white,c_white,1);

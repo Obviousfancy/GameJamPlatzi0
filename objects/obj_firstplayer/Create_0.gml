@@ -1,5 +1,10 @@
  
 spd = 2; 
+if room == Room_03_Scene_Program{
+audio_play_sound(PlatziGameJam,0,true);
+}
+
+
  health = obj_game_controller.player_data[? "hp"]  ;  
 global.points=obj_game_controller.player_data[? "points"];
 global.power=false;

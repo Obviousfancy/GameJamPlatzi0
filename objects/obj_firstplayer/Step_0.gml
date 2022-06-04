@@ -1,4 +1,5 @@
 if (global.golpe) exit;
+
 scr_get_input();
 
 
@@ -131,8 +132,11 @@ if( pause && !instance_exists(obj_pause)){
  
 
 if(health<=0){
-
+	audio_stop_all();
 	room_goto(Room_Game_Over);
+	audio_stop_sound(PlatziGameJam);
+	audio_play_sound(muerte,0,false);
+	
 }
 
 

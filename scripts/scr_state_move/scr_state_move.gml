@@ -18,6 +18,7 @@ function scr_state_move(){
 					//var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
 					bullet.dir = point_direction(x,y,obj_firstplayer.x,obj_firstplayer.y);
 					//state = scr_enemy_vg_idle;
+					audio_play_sound(disparo2,0,false);
 		
 					
 					//left
@@ -28,6 +29,7 @@ function scr_state_move(){
 					//var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
 					bullet.dir = point_direction(x,y,-(obj_firstplayer.x),obj_firstplayer.y);
 					//state = scr_enemy_vg_idle;
+					audio_play_sound(disparo2,0,false);
 					myState = playerState.attacking;
 						dir_main = 2;
 					//down
@@ -38,6 +40,7 @@ function scr_state_move(){
 					//var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
 					bullet.dir = point_direction(x,y,0,270);
 					//state = scr_enemy_vg_idle;
+					audio_play_sound(disparo2,0,false);
 					myState = playerState.attacking;
 						//dir_main = 2;
 						show_debug_message("Puedes atacar abajo");
@@ -49,6 +52,7 @@ function scr_state_move(){
 					//var bullet = instance_create_layer(x,y,"Instances",obj_main_char_bullet);
 					bullet.dir = point_direction(x,y,obj_firstplayer.x,-(obj_firstplayer.y));
 					//state = scr_enemy_vg_idle;
+					audio_play_sound(disparo2,0,false);
 					myState = playerState.attacking;
 						//dir_main = 2;
 						show_debug_message("Puedes atacar arriba");

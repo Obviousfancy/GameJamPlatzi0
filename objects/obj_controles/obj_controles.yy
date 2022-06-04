@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_boton_menu",
-    "path": "sprites/spr_boton_menu/spr_boton_menu.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -10,7 +7,7 @@
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
-  "physicsSensor": true,
+  "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
   "physicsDensity": 0.5,
@@ -23,6 +20,9 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objetos/grp_sensors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_history2",
+  "name": "obj_controles",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -73,7 +73,7 @@ if(global.playerControl == true){
 			myState = itemState.taken;
 		}
 
-		
+		audio_play_sound(picup_pickdown,0,false);
 	}
  
  }
@@ -89,11 +89,12 @@ if(global.playerControl == true){
 			// Change state of item we were carrying
 			with (hasItem)
 			{
+				
 				putDownY = obj_firstplayer.y+5;
 				myState = itemState.puttingBack;
 			}
 			// Play put-down sound
-			//audio_play_sound(snd_itemPutDown,1,0);
+			audio_play_sound(picup_pickdown,1,0);
 			// Reset item
 			hasItem = noone;
 		}

@@ -5,5 +5,6 @@ draw_text_ext_transformed_color(display_get_gui_width()/2,display_get_gui_height
 draw_text_ext_transformed_color(display_get_gui_width()/2,display_get_gui_height()/2,"Press Enter to Restart",15,100,2,2,0,c_white,c_white,c_white,c_white,1);
 draw_set_halign(fa_left);
  if(continue_restart){
+	audio_stop_all();
 	game_restart();	  
 } 
